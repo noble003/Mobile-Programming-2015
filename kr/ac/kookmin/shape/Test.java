@@ -4,8 +4,10 @@ import java.util.LinkedList;
 
 public class Test {
 	
-	static void paintShapes(Graphics g, LinkedList<Shape> shapes) {
-		for(Shape s : shapes) {
+	static void paintShapes(Graphics g, LinkedList<Shape> shapes) 
+	{
+		for(Shape s : shapes) 
+		{
 			s.draw(g);
 		}
 	}
@@ -22,3 +24,11 @@ public class Test {
 		paintShapes(g, shapes);
 	}
 }
+
+
+
+
+
+
+
+
